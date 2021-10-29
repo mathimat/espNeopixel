@@ -1,7 +1,7 @@
 const canvasDiv = document.getElementById("canvasGrid");
 
-const apiURL = 'http://192.168.1.100:3000';
-
+//const apiURL = 'http://192.168.1.100:3000';
+const apiURL = 'http://'+ (location.host || '192.168.1.120:3050' );
 
 let colorPicker;
 let colors = [];
