@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neopixel</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+        ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</head>
+<body>
+    <h1 id="title">Neopixel</h1>
+    <div id="neoPixel">
+        <button @click="toggleDemo">
+            {{demoStatus}}
+        </button>
+        <button @click="resetColour">
+            Reset
+        </button>
+    </div>
+
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="scripts/p5.min.js"></script>
+    <script src="scripts/script.js"></script>
+    </body>
+</html>

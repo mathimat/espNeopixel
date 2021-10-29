@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
+:root {
+
+    --paradise-pink: #ef476fff;
+    --orange-yellow-crayola: #ffd166ff;
+    --caribbean-green: #06d6a0ff;
+    --blue-ncs: #118ab2ff;
+    --background: #073b4cff;
+
+    --font: #eee5e5ff;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--background);
+    color: var(--font);
+}
+
+h1#title {
+    margin-left: 5vw;
+    font-size: 3rem;
+}
+
+#neoPixel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: inline-block;
+    background-color: var(--paradise-pink);
+    border: none;
+    color: var(--font);
+    padding: 0.25em 0.75em;
+    margin: 0 0.1em 0.1em 0;
+    border-radius: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: var(--orange-yellow-crayola);
+}
+
+button:active {
+    box-shadow: -0.01em -0.05em #666;
+    transform: translateY(0.05em);
+}
